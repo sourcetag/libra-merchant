@@ -1,4 +1,29 @@
 export const menuList = {
+  folkrice: [{
+    title: 'Red Folkrice',
+    subtitle: 'ข้าวหอมมะลิแดง',
+    price: 4.35,
+    image: 'menu/folkrice/red.jpg'
+  },
+  {
+    title: 'White Folkrice',
+    subtitle: 'ข้าวหอมมะลิ',
+    price: 7.00,
+    image: 'menu/folkrice/white.jpg'
+  },
+  {
+    title: 'Brown Folkrice',
+    subtitle: 'ข้าวกล้องหอมมะลิ',
+    price: 7.50,
+    image: 'menu/folkrice/brown.jpg'
+  },
+  {
+    title: 'Black Folkrice',
+    subtitle: 'ข้าวหอมนิล',
+    price: 7.50,
+    image: 'menu/folkrice/black.jpg'
+  }],
+
   coffee: [{
     title: 'Espresso',
     subtitle: 'Blue Ridge Blend',

@@ -3,6 +3,12 @@
     <img class="logo" src="@/assets/img/logo/app-logo.jpg">
     <img class="libra-logo" src="@/assets/img/logo.png">
     <div class="divider mg-bt-40px"/>
+    <div class="menu-item" @click="selectMenu('folkrice')">
+      <img style="width: 32px" src="@/assets/img/logo/folkrice.png">
+      <span :class="{ 'is-active': menuPage === 'folkrice'  }">
+        Folkrice
+      </span>
+    </div>
     <div class="menu-item" @click="selectMenu('coffee')">
       <img src="@/assets/img/sidebar-item/coffee.svg">
       <span :class="{ 'is-active': menuPage === 'coffee'  }">
